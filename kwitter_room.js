@@ -22,9 +22,9 @@ window.location = "kwitter_page.html"
 function logout(){
   localStorage.removeItem("user_name");
   localStorage.removeItem("room_name");
-  window.location = "kwitter.html"
+  window.location = "index.html"
 }
-// TODO: Add SDKs for Firebase products that you want to use
+// TODO: Add SDKs for Firebase products that you want to use  
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
